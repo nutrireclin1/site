@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+@font-face {
+  font-family: 'All Round Gothic';
+  src: url('../fonts/Fontspring-DEMO-allroundgothic-text.otf') format('opentype'); /* ajuste o caminho e o formato conforme necessário */
+}
+
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'All Round Gothic', sans-serif;
   color: #000000;
   background-color: #fefefe;
   overflow-x: hidden;
@@ -275,8 +281,8 @@ a:focus {
 
 .slider_section .detail-box h1 {
   font-size: 3rem;
-  font-weight: bold;
-  text-transform: uppercase;
+  
+  /* text-transform: uppercase; */
   margin-bottom: 15px;
   color: #ffffff;
 }
@@ -400,8 +406,8 @@ a:focus {
 }
 
 .department_section .box .detail-box h5 {
-  font-weight: bold;
-  text-transform: uppercase;
+  /* font-weight: bold;
+  text-transform: uppercase; */
 }
 
 .department_section .box .detail-box a {
@@ -485,7 +491,7 @@ a:focus {
 }
 
 .doctor_section {
-  background: #178066;
+  background: #000;
 }
 
 .doctor_section .heading_container {
@@ -716,7 +722,7 @@ a:focus {
 }
 
 .client_section .box .detail-box .name h6 {
-  color: #62d2a2;
+  color: #000;
   font-size: 20px;
 }
 
@@ -739,7 +745,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 12px;
   background-position: center;
-  background-color: #62d2a2;
+  background-color: #000;
   background-position: center;
   border-radius: 5px;
   margin: 0 2.5px;
@@ -755,7 +761,7 @@ a:focus {
 }
 
 .footer_section {
-  background: #178066;
+  background: #000;
   color: #ffffff;
   padding: 60px 0 15px 0;
   position: relative;
